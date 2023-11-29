@@ -1,0 +1,13 @@
+height = int(input("What is your height? "))
+if height >= 120:
+    age = int(input("What is your age?"))
+    if age < 12:
+        print("please pay $5")
+    elif age<=18:
+        print("please pay $7")
+        
+    else:
+        print("You get $7 ticket!")
+else:
+    print("Sorry!,you have to grow taller to ride a rollercoaster!")
+        
